@@ -36,6 +36,7 @@ body{
   color: white;
   text-decoration: none;
   margin: 0px 15px;
+  font-size: 18px;
 }
 .cart_area {
   display: flex;
@@ -77,7 +78,7 @@ body{
 .header_bottom {
   background-image: linear-gradient(to right, #09131b, #40505a);
   padding: 10px 0px;
-  width: 30%;
+  width: 35%;
   margin: auto;
   position: relative;
   border-radius: 10px;
@@ -91,9 +92,7 @@ body{
   text-decoration: none;
   font-size: 18px;
 }
-.header_bottom ul a:nth-child(1) {
-  margin-left: 5%;
-}
+
 .header_bottom ul a:nth-child(3) {
   margin-right: 10%;
 }
@@ -117,7 +116,18 @@ body{
 .search-box{
 
 }
-
+.header_bottom ul li{
+  position: relative;
+}
+#sub_menu{
+  position: absolute;
+  background-image: linear-gradient(to bottom, #1D2E35, #91754F);
+  color: white;
+  width: 350px;
+  height: auto;
+  padding: 15px 20px;
+  top:200%;
+}
 /* -------hero-content--------- */
 .hero_content{
     margin-top: 105px;
