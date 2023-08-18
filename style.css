@@ -6,12 +6,21 @@ ul {
   list-style: none;
   display: flex;
 }
+body{
+    background-color: #09131b;
+}
+.contaoner{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
 /* ---------header-Section------------ */
-.header_section {
+.hero_section {
   background-image: url("./images/banner.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 20px 20px 50px 20px;
+  padding: 20px 20px 110px 20px;
+  background-position: center center;
 }
 .header_top {
   display: flex;
@@ -104,4 +113,110 @@ ul {
 }
 .header_bottom .fa-search {
   color: white;
+}
+.search-box{
+
+}
+
+/* -------hero-content--------- */
+.hero_content{
+    margin-top: 105px;
+    margin-left: 87px;
+}
+.hero_content .content_button{
+    color:white;
+    background: #32393c9e;
+    border: 0;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.hero_content p{
+    color: white;
+    font-size: 30px;
+}
+.percent_btn{
+    display: flex;
+    align-items: center;
+}
+.percent_btn button{
+    background-color: #ff4e18;
+    color:white;
+    border:0;
+    padding: 5px;
+   border-radius: 3px 10px 3px 3px;
+}
+.percent_btn h6{
+    color: white;
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+/* -------card_section----------- */
+.card_section{
+    position: relative;
+    padding: 50px 0;
+}
+.divider{
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    background: #09131b;
+    z-index: 1;
+    transform: skewY(2deg);
+    transform-origin: top right;
+}
+.view{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+  align-items: end;
+}
+.view h4{
+    font-size: 30px;
+}
+.view button{
+    background-color: #323232;
+    color: white;
+    border: 1px solid rgb(171, 171, 171);
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.image{
+    position: relative;
+}
+.image img{
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+}
+.image button{
+    position: absolute;
+    background-color: #ff4e18;
+    color:white;
+    border:0;
+    padding: 5px;
+   border-radius: 3px 10px 3px 3px;
+   bottom: 0;
+   left: 0;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+.card_content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 5px;
 }
