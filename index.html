@@ -12,14 +12,37 @@
     <!-- -----------style.css---------- -->
     <link rel="stylesheet" href="style.css" />
     <!-- ------------responsive.css------------ -->
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
-    
     <!-- ------------hero-section start---------- -->
     <div class="hero_section">
       <!-- ----------------Header-area------------ -->
-      <header class="header_section">
+      <div class="mobile_responsive">
+      <div class="mobile_menu">
+        <div class="mobile_navigation">
+         <i onclick="show_hide_nav()" class="fas fa-bars"></i>
+        <div class="mobile_logo">
+          <img src="./images/header_logo_glow.webp" alt="" />
+        </div>
+        </div>
+        <!-- ---------------------- -->
+        <div class="cart_area mobile_cart_area">
+          <div class="cart">
+            <i class="fas fa-cart-plus"></i>
+          </div>
+          <div class="user">
+            <button onclick="show_hide()"><i class="far fa-user"></i></button>
+            <div id="accout">
+              <a href="http://">Login</a>
+              <a href="http://">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <header class="header_section" id="header_section" >
+   <i onclick="show_hide_nav()" class="fas fa-times close_btn"></i></button>
         <!-- ---------Hedaer-Top Start-------- -->
         <div class="header_top">
           <div class="logo">
@@ -81,9 +104,7 @@
                   <a href="#">View all</a>
                 </div>
                 <!-- ---------------------- -->
-                <div class="sub_menu_logo">
-
-                </div>
+                <div class="sub_menu_logo"></div>
                 <!-- ----------------- -->
                 <div class="sub_menu_grid">
                   <a href="#">Steam Gift Cards</a>
@@ -123,9 +144,7 @@
                   <a href="#">View all</a>
                 </div>
                 <!-- ---------------------- -->
-                <div class="sub_menu_logo">
-                  
-                </div>
+                <div class="sub_menu_logo"></div>
                 <!-- ----------------- -->
                 <div class="sub_menu_grid">
                   <a href="#">Steam Gift Cards</a>
@@ -165,9 +184,7 @@
                   <a href="#">View all</a>
                 </div>
                 <!-- ---------------------- -->
-                <div class="sub_menu_logo">
-                  
-                </div>
+                <div class="sub_menu_logo"></div>
                 <!-- ----------------- -->
                 <div class="sub_menu_grid">
                   <a href="#">Steam Gift Cards</a>
@@ -182,6 +199,7 @@
           </ul>
         </div>
       </header>
+    </div>
       <!-- ----------------Hero-content-------------- -->
       <div class="hero_content">
         <button class="content_button">In 15 days</button>
