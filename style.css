@@ -50,9 +50,10 @@ body{
   border: 0;
 }
 .fa-user {
-  color: rgb(0, 68, 255);
+  color: rgb(0, 140, 255);
   margin-left: 45px;
   cursor: pointer;
+  font-size: 18px;
 }
 #accout {
   position: absolute;
