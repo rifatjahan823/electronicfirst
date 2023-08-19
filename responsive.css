@@ -142,7 +142,9 @@
 @media (max-width:760px) {
   .card {
     grid-template-columns: repeat(2,1fr);
-
+}
+.hero_btn{
+  top: 80%;
 }
 }
 @media (max-width:600px) {
@@ -150,8 +152,8 @@
     grid-template-columns: repeat(1,1fr);
 
 }
-
 .hero_content{
+  margin-top: 80px;
   margin-left: 20px;
 }
 .hero_content p{
