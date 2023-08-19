@@ -150,4 +150,12 @@
     grid-template-columns: repeat(1,1fr);
 
 }
+
+.hero_content{
+  margin-left: 20px;
+}
+.hero_content p{
+  color: white;
+  font-size: 20px;
+}
 }

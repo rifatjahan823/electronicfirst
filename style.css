@@ -148,6 +148,7 @@ body{
   padding: 15px 20px;
   top:200%;
   display: none;
+  z-index: 999;
 }
 #sub_menu3{
  left: -170%;
@@ -209,6 +210,56 @@ transition: 0.5s;
 .percent_btn{
     display: flex;
     align-items: center;
+}
+.hero_btn{
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width: 190px;
+  height: 40px;
+  background: #232323;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+.hero_btn:before,
+.hero_btn:after,
+ span:before,
+ span:after
+{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    transition: 1s;
+    mix-blend-mode: hue;
+}
+
+.hero_btn:before
+{
+    top: -2px;
+    left: -2px
+}
+.hero_btn:after
+{
+    top: -2px;
+    right: -2px;
+}
+.hero_btn span:before
+{
+    bottom: -2px;
+    left: -2px
+}
+.hero_btn span:after
+{
+    bottom: -2px;
+    right: -2px
 }
 .percent_btn button{
     background-color: #ff4e18;
