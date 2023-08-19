@@ -26,6 +26,7 @@
   .mobile_navigation .fa-bars{
    color: white;
    font-size: 30px;
+   cursor: pointer;
   }
   .logo {
     display: none;
@@ -72,7 +73,7 @@
     justify-content: start;
   }
   #sub_menu, #sub_menu2, #sub_menu3  {
-    display: block;
+    display: none;
     position:static;
     background-image: none;
     color: white;
@@ -92,6 +93,7 @@
  color: white;
  font-size: 20px;
  margin-bottom: 5%;
+ cursor: pointer;
 }
 .cart_area{
     display: none;
@@ -129,5 +131,23 @@
     border-radius: 50%;
     border: 0;
     margin-right: 8%;
+    cursor: pointer;
   }
+  .divider {
+    top: -11px;
+    transform: skewY(2deg);
+}
+}
+
+@media (max-width:760px) {
+  .card {
+    grid-template-columns: repeat(2,1fr);
+
+}
+}
+@media (max-width:600px) {
+  .card {
+    grid-template-columns: repeat(1,1fr);
+
+}
 }

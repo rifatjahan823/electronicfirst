@@ -50,5 +50,14 @@ function close_searchbar() {
       }
 
 }
+function close_searchbar_mobile() {
+      var click = document.getElementById("search_input_mobile");
+      if (click.style.display === "none") {
+         click.style.display = "block";
+      } else {
+         click.style.display = "none";
+      }
+
+}
 
 
