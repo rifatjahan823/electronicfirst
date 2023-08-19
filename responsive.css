@@ -102,5 +102,32 @@
   .search-box {
     display: none;
   }
+.search-box_mobile{
+    display: block;
+    margin-right: 55px;
+}
+.search-box input{
+    right: 15%;
+    top: 12%;
+    width: 300px;
 
+  }
+  .search-box .fa-times{
+    right: -10%;
+    top: 15%;
+  }
+  .search-box .fa-times{
+    right:10%;
+    top: 30%;
+    z-index: 999;
+
+  }
+  .search-box button{
+    background-color: #ff4e18;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0;
+    margin-right: 8%;
+  }
 }

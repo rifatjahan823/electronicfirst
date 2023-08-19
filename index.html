@@ -27,18 +27,28 @@
         </div>
         </div>
         <!-- ---------------------- -->
+       <div style="display: flex;">
+        <div class="search-box search-box_mobile">
+          <button onclick="close_searchbar()"><i class="fas fa-search"> </i></button>
+         <div class="seach_display" id="search_input">
+          <input type="text" id="search_input">
+          <i onclick="close_searchbar()" class="fas fa-times "></i>
+         </div>
+        </div>
+        <!-- ------------------- -->
         <div class="cart_area mobile_cart_area">
           <div class="cart">
             <i class="fas fa-cart-plus"></i>
           </div>
           <div class="user">
-            <button onclick="show_hide()"><i class="far fa-user"></i></button>
+          <i onclick="show_hide()" class="far fa-user"></i>
             <div id="accout">
               <a href="http://">Login</a>
               <a href="http://">Register</a>
             </div>
           </div>
         </div>
+       </div>
       </div>
      
       <header class="header_section" id="header_section" >
