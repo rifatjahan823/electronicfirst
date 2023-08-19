@@ -41,5 +41,14 @@ function show_hide_nav() {
       }
 
 }
+function close_searchbar() {
+      var click = document.getElementById("search_input");
+      if (click.style.display === "none") {
+         click.style.display = "block";
+      } else {
+         click.style.display = "none";
+      }
+
+}
 
 

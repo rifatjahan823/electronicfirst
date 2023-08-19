@@ -42,7 +42,7 @@
       </div>
      
       <header class="header_section" id="header_section" >
-   <i onclick="show_hide_nav()" class="fas fa-times close_btn"></i></button>
+   <i onclick="show_hide_nav()" class="fas fa-times close_btn"></i>
         <!-- ---------Hedaer-Top Start-------- -->
         <div class="header_top">
           <div class="logo">
@@ -194,7 +194,11 @@
               </div>
             </li>
             <div class="search-box">
-              <button><i class="fas fa-search"> </i></button>
+              <button onclick="close_searchbar()"><i class="fas fa-search"> </i></button>
+             <div class="seach_display" id="search_input">
+              <input type="text" id="search_input">
+              <i onclick="close_searchbar()" class="fas fa-times "></i>
+             </div>
             </div>
           </ul>
         </div>

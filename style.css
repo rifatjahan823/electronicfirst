@@ -113,8 +113,27 @@ body{
 .header_bottom .fa-search {
   color: white;
 }
-.search-box{
-
+.search-box input{
+  background-color: #ff4e18;
+  height: 50px;
+  position: absolute;
+  right: -5%;
+  top: -12%;
+  width: 530px;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+}
+.search-box .fa-times{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  right: -10%;
+  top: 15%;
+  cursor: pointer;
+}
+.seach_display{
+  display: none;
 }
 .header_bottom ul li{
   position: relative;
