@@ -6,7 +6,9 @@
     .mobile_menu{
         display: none;
       }
-   
+   .sub_menu_bottom{
+    padding: 0px 30px;
+   }
 }
 
 @media (max-width: 960px) {
