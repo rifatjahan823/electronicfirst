@@ -134,8 +134,8 @@
     cursor: pointer;
   }
   .divider {
-    top: -11px;
-    transform: skewY(2deg);
+    top: 4px;
+    transform: skewY(3deg);
 }
 }
 
