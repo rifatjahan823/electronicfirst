@@ -163,11 +163,12 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #404c50;
-  padding: 10px 13px;
+  padding: 10px 10px;
   border-radius: 5px;
 }
 .sub_menu .platform a {
   color: white;
+  font-size: 15px;
 }
 .sub_menu_card {
   margin: 20px 0px;
@@ -176,6 +177,9 @@ body {
   color: white !important;
   padding: 12px 0px 12px 5px;
   border-radius: 20px;
+  display: flex;
+    align-items: center;
+    font-size: 15px;
 }
 .sub_menu_grid a:nth-child(3) {
   margin-right: 0% !important;
@@ -191,15 +195,23 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
 }
+.sub_menu_grid img{
+  width: 30px;
+  margin-right: 5px;
+}
 .sub_menu_logo {
   margin-top: 10px;
-  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 .sub_menu_logo img{
   width: 40px;
   height: 40px;
-  margin: auto;
   border-radius: 50%;
+  margin-left: 15%;
+}
+.sub_menu_logo img:nth-child(3){
+  margin-left: 28%;
 }
 /* -------hero-content--------- */
 .hero_content {
